@@ -29,7 +29,7 @@ li{
 }
 .header{
     min-height:720px;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url("images/lion-resize.jpg");
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url("./images/lion-resize.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
@@ -39,23 +39,23 @@ li{
 }
 @keyframes head-bg{
     0%{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url("images/lion-resize.jpg");
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url("./images/lion-resize.jpg");
         object-fit: cover;
     }
     35%{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url("images/lion2.webp");
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url("./images/lion2.webp");
         background-repeat: no-repeat;
         background-size: cover;
     }
     70%{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url("images/hill.jpg");
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url("./images/hill.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         object-fit:cover ;
     }
     100%{
         
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url("images/fort.png");
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url("./images/fort.png");
         background-repeat: no-repeat;
         background-size: cover
     }
