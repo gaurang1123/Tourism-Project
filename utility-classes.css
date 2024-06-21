@@ -1,0 +1,33 @@
+.flex{
+    display: flex;
+    align-items: center;
+}
+:root{
+    --primary-color:#FFBC00;
+}
+.container{
+    width: 1180px;
+    margin: auto;
+}
+.primary-btn{
+    color: var(--primary-color);
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: 2px solid var(--primary-color);
+}
+.secondary-btn{
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color:var(--primary-color);
+}
+.primary-btn:hover{
+    background-color: var(--primary-color);
+    color: white;
+    padding:5px 15px;
+}
+.secondary-btn:hover{
+    padding: 5px 15px;
+    color: white;
+    border:none ;
+}
