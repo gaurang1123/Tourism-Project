@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins' ;
+}
+:root{
+    --primary-color:#FFBC00;
+    --background-color:#f47235;
+}
+body{background-color: var(--background-color);}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+p{
+    font-size: 1.1rem;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.header{
+    min-height:720px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url("images/lion-resize.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    position: relative;
+    animation: head-bg 13s infinite  linear;
+}
+@keyframes head-bg{
+    0%{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url("images/lion-resize.jpg");
+        object-fit: cover;
+    }
+    35%{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url("images/lion2.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    70%{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url("images/hill.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit:cover ;
+    }
+    100%{
+        
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url("images/fort.png");
+        background-repeat: no-repeat;
+        background-size: cover
+    }
+}
+
+nav{
+    justify-content: center;
+}
+nav ul{
+    margin-top: 20px;
+    width: 65%;
+    justify-content: space-between;
+}
+nav ul li a{
+    font-size: 0.9rem;
+    color: white;
+    transition: 0.1s ease-in-out;
+}
+nav ul li a:hover{
+    padding: 5px;
+    color: var(--primary-color);
+    border-bottom:3px solid var(--primary-color);
+}
+nav ul li img{
+    width: 110px;
+}
+.head-text{
+    width: 40%;
+    margin-inline: auto;
+    margin-top: 25%;
+    flex-direction: column;
+    gap: 20px;
+}
+.header h1{
+    color: white;
+}
+.header p{
+    font-size: 0.8rem;
+}
+.head-text a{
+    border-radius: 0;
+}
+.coop {
+    text-align: center;
+    height: 400px;
+    padding: 30px 0px;
+    background-color: aliceblue;
+}
+.coop-list{
+    margin: auto;
+    width: 90%;
+}
+
+.coop-items img{
+    height: 200px;
+    width: 200px;
+}
+.coop-items{
+    padding-top: 30px;
+    justify-content: space-evenly;
+}
+.places{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    /* height: 500px; */
+}
+/* .places-img{
+    width: 200px;
+} */
+.places img{
+    max-width: 500px;
+}
+.places-items{
+    /* width: 95%; */
+    margin-inline: auto;
+    justify-content: center;
+    gap: 200px;
+    /* justify-content: space-evenly; */
+}
+.places-text{
+    width: 450px;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+}
+.places-text p{
+    color: white;
+}
+.places-left{
+    flex-direction: row-reverse;
+}
+
+
