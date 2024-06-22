@@ -86,7 +86,11 @@
     nav img{
         width: 130px;
     }
-
+}
+@media screen and (max-width:360px){
+    .places-text{
+        width: 350px;
+    }
 }
 @media screen and (max-width:320px) {
     .head-text{
@@ -102,5 +106,5 @@
         width: 310px;
     }
     .places-text{
-        width: 250px;}
+        width: 290px;}
 }
