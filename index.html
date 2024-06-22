@@ -5,13 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="utility-classes.css">
+    <link rel="stylesheet" href="media-queries.css">
+    <script src="https://kit.fontawesome.com/73a2e9839f.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
     <header class="header">
         <nav class="flex">
+            <a href="#"><img src="./images/logo.png" alt=""></a>
+            <div class="nav-links  flex" id="nav-toggle">
             <ul class="flex">
-                <li><a href="#"><img src="./images/logo.png" alt=""></a></li>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Destinations</a></li>
                 <li><a href="#">Visit Now</a></li>
@@ -19,6 +22,8 @@
                 <li><a href="#" class="secondary-btn">Log-in</a></li>
                 <li><a href="#" class="primary-btn">Sign-in</a></li>
             </ul>
+        </div>
+            <a href="#" class="hamburger" id="toggle"><i class="fa-solid fa-bars"></i></a>
         </nav>
         <div class="head-text flex">
         <h1>Go Gujarat</h1>
@@ -37,7 +42,7 @@
     </div>
     </section>
     <section class="places">
-        <div class="container">
+        <!-- <div class="container"> -->
         <div class=" places-items flex">
             <div class="places-img">
             <img src="./images/lion-family.jpg" alt="">
@@ -48,10 +53,10 @@
                 <a href="#" class="primary-btn">Visit Now</a>
             </div>
             </div>
-        </div>
+        <!-- </div> -->
     </section>
     <section class="places">
-        <div class="container">
+        <!-- <div class="container"> -->
         <div class=" places-items places-left flex">
             <div class="places-img">
             <img src="./images/hill-landscape.jpg" alt="">
@@ -62,10 +67,10 @@
                 <a href="#" class="primary-btn">Visit Now</a>
             </div>
         </div>
-        </div>
+        <!-- </div> -->
     </section>
     <section class="places">
-        <div class="contanier">
+        <!-- <div class="contanier"> -->
         <div class=" places-items flex">
             <div class="places-img">
             <img src="./images/fort.png" alt="">
@@ -76,8 +81,16 @@
                 <a href="#" class="primary-btn">Visit Now</a>
             </div>
         </div>
-        </div>
+        <!-- </div> -->
     </section>
 
+    <script>
+        const toggleButton = document.getElementById('toggle');
+        const navLinks = document.getElementById('nav-toggle');
+        toggleButton.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        }
+        )
+    </script>
 </body>
 </html>
