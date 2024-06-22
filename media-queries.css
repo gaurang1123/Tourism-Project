@@ -88,3 +88,19 @@
     }
 
 }
+@media screen and (max-width:320px) {
+    .head-text{
+        width: 85%;
+    }
+    .coop{
+        /* max-height:400px ; */
+    }
+    .coop-items{
+        padding-top: 10px;
+    }
+    .places-img{
+        width: 310px;
+    }
+    .places-text{
+        width: 290px;}
+}
