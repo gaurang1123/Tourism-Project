@@ -130,6 +130,7 @@ nav img{
     max-width: 200px;
     min-width: 100px;
     min-height: 100px;
+
 }
 .coop-items{
     padding-top: 30px;
@@ -148,6 +149,8 @@ nav img{
  }
 .places img{
     width: 100%;
+    border-radius:10px;
+
 }
 .places-items{
     /* width: 95%; */
