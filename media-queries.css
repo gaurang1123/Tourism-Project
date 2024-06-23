@@ -1,3 +1,11 @@
+@media screen and (1185px <= width <= 2560px) {
+    .places-img{
+        width: 635px;
+    }
+    .places-text{
+        width: 580px;
+    }
+}
 @media screen and (426px <= width <= 769px) {
     .nav-links{
         position: absolute;
