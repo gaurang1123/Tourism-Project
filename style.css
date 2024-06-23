@@ -145,7 +145,7 @@ nav img{
 }
 
 .places-img{
-    width: 490px;
+    width: 110%;
  }
 .places img{
     width: 100%;
@@ -160,7 +160,7 @@ nav img{
     justify-content: space-evenly;
 }
 .places-text{
-    width: 400px;
+    width: 100%;
     flex-direction: column;
     gap: 15px;
     text-align: center;
