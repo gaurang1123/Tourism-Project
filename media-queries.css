@@ -1,8 +1,4 @@
-@media screen and (max-width:769px) {
-    .head-text{
-        width: 60%;
-        margin-top: 45%;
-    }
+@media screen and (426px <= width <= 769px) {
     .nav-links{
         position: absolute;
         width:100%;
@@ -12,14 +8,58 @@
         justify-content: center;
         background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255,255,255,0.4));
     }
+    .hamburger{
+        display: block;
+    }
+    .nav-links.active{
+        top: 0;
+    }
+    .nav-links ul{
+        flex-direction: column;
+        gap: 30px;
+    }
+    nav{
+        justify-content: space-between;
+    }
+    nav a img{
+        width: 110px;
+    }
+    nav a i{
+        font-size: x-large;
+        color: var(--primary-color);
+    }
+    nav a{
+        z-index: 2;
+    }
+    .head-text{
+        max-width: 60%;
+        min-width: 65%;
+        bottom: 25px;
+
+    }
     .places-items{
         gap: 50px;
     }
-    .places-img{
-        width: 700px;
-    }
-    .places-text{
-        width: 600px;
+}
+
+
+@media (426px <= width <= 685px) {
+    .places-items{
+        flex-direction: column;
+        gap: 20px;
+    }   
+}
+
+
+@media screen and (374px <= width <= 426px) {
+    .nav-links{
+        position: absolute;
+        width:100%;
+        padding-bottom: 3%;
+        top: -100%;
+        left: 0;
+        justify-content: center;
+        background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255,255,255,0.4));
     }
     .nav-links.active{
         top: 0;
@@ -44,67 +84,69 @@
     nav a{
         z-index: 2;
     }
-}
-@media screen and (max-width:426px) {
+    .head-text{
+        max-width: 60%;
+        min-width: 75%;
+        bottom: 55px;
+    }
     .coop{
         max-height:250px ;
-    }
-    .head-text{
-        width: 60%;
-        bottom: 30px;
     }
     .places-items{
         flex-direction: column;
         gap: 20px;
     }   
-    .places-img{
-        width: 395px;
-    }.places-text{
-        width: 400px;
-
-    }
     
-    .hamburger{
-        display: block;
-    }
 }
 
-@media screen and (max-width:376px) {
-    .head-text{
-        width: 70%;
-        bottom: 45px;
-    }
-    .places-img{
-        width: 350px;
-    }.places-text{
-        width: 370px;
 
-    }
+
+@media screen and ( 315px <= width <= 374px) {
     nav{
-        width: 95%;
+    width: 95%;
     }
     nav img{
         width: 130px;
     }
-}
-@media screen and (max-width:360px){
-    .places-text{
-        width: 350px;
+    .nav-links{
+        position: absolute;
+        width:100%;
+        padding-bottom: 3%;
+        top: -100%;
+        left: 0;
+        justify-content: center;
+        background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255,255,255,0.4));
     }
-}
-@media screen and (max-width:320px) {
+    .nav-links.active{
+        top: 0;
+    }
+    .nav-links ul{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .hamburger{
+        display: block;
+    }
+    nav{
+        justify-content: space-between;
+    }
+    nav a img{
+        width: 110px;
+    }
+    nav a i{
+        font-size: x-large;
+        color: var(--primary-color);
+    }
+    nav a{
+        z-index: 2;
+    }
     .head-text{
-        width: 85%;
+        max-width: 70%;
+        min-width: 85%;
+        bottom: 55px;
     }
-    .coop{
-        /* max-height:400px ; */
-    }
-    .coop-items{
-        padding-top: 10px;
-    }
-    .places-img{
-        width: 310px;
-    }
-    .places-text{
-        width: 290px;}
+    .places-items{
+        flex-direction: column;
+        gap: 20px;
+    }   
 }
