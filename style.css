@@ -6,7 +6,8 @@
 }
 :root{
     --primary-color:#FFBC00;
-    --background-color:#f47235;
+    --background-color:#FF9539;
+    --background-footer:#ea8167;
 }
 body{background-color: var(--background-color);}
 h1{
@@ -19,7 +20,7 @@ h3{
     font-size: 1.5rem;
 }
 p{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 a{
     text-decoration: none;
@@ -153,9 +154,8 @@ nav img{
 
 }
 .places-items{
-    /* width: 95%; */
     margin-inline: auto;
-    /* justify-content: space-between; */
+
     gap: 100px;
     justify-content: space-evenly;
 }
@@ -178,4 +178,39 @@ nav img{
 }
 .hamburger a {
     color: white;
+}
+
+footer{
+    padding-top:10px ;
+    background-color: var(--background-footer);
+}
+.main-footer{
+    width: 90%;
+    margin-inline:auto ;
+    justify-content: space-between;
+}
+.footer-logo img{
+    width: 110px;
+}
+.footer-links ul{
+    width: 550px;
+    justify-content: space-around;
+}
+
+.footer-links ul li a{
+    font-size: 0.9rem;
+    color: white;
+    transition: 0.1s ease-in-out;
+}
+.footer-links ul li a:hover{
+    color: var(--primary-color);
+    border-bottom:3px solid var(--primary-color);
+}
+
+.social-icons a i{
+    font-size: 1.2rem;
+    color: var(--primary-color);
+}
+.social-icons{
+    gap: 15px;
 }
