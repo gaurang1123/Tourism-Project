@@ -32,7 +32,7 @@ li{
 }
 .header{
     position: relative;
-    min-height:720px;
+    min-height:100vh;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url("./images/lion-family.jpg");
     background-size: cover;
     background-repeat: no-repeat;
